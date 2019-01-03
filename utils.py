@@ -13,6 +13,7 @@ class Segment:
 		self.ltpseg = pyltp.Segmentor()
 		self.ltpseg.load('model/ltp_data_v3.4.0/cws.model')
 		self.thu1 = thulac.thulac(seg_only=True)
+		jiagu.init()
 		pynlpir.open()
 		
 	def __del__(self):
