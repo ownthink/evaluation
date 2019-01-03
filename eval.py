@@ -46,8 +46,8 @@ def test_value(name, test_set):
 		can_count += can_words_len
 		acc_count += acc_word_len
 	
-	P = acc_count / ref_count * 100
-	R = acc_count / can_count * 100
+	P = acc_count / can_count * 100
+	R = acc_count / ref_count * 100
 	F1 = (2 * P * R) / (P+R)
 	
 	print(name)
