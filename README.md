@@ -23,7 +23,7 @@ pip install jieba
 pip install pyhanlp
 pip install snownlp
 pip install foolnltk
-pip3 install jiagu
+pip3 install jiagu==0.1.2
 pip install pyltp      # 需要下载模型，模型地址见上诉Tutorial教程，模型所放的路径与Tutorial同
 pip install thulac
 pip install pynlpir    # 安装好后需要使用证书，见上诉Tutorial教程
